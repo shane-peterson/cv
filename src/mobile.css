@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+    article {
+        width: auto;
+        height: auto;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .bio > img {
+        display: none;
+    }
+
+    .skills .wrapper {
+        flex-direction: column;
+    }
+
+    .skills > .wrapper > #skills {
+        width: auto;
+    }
+
+    .jobs header {
+        flex-direction: column;
+    }
+
+    .jobs header > h3,
+    .jobs header > h4,
+    .jobs header > span {
+        margin: 0;
+    }
+}

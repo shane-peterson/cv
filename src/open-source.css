@@ -1,0 +1,23 @@
+
+.openSource {
+
+}
+
+.openSource > h2 {
+
+}
+
+.openSource > ul {
+}
+
+.openSource > ul > li {
+    margin-bottom: 1.5em;
+}
+
+.openSource header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.openSource h3 {
+}

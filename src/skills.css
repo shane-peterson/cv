@@ -1,0 +1,27 @@
+.skills {
+}
+
+.skills h2 {
+}
+
+.skills > .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills > .wrapper > :first-child {
+    margin-right: 1.5em;
+}
+
+.skills > .wrapper > #skills {
+    width: 31.25em;
+    height: 15em;
+}
+
+.skills > .wrapper > ul {
+}
+
+.skills > .wrapper > ul > li {
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}

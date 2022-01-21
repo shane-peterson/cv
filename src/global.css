@@ -1,0 +1,56 @@
+body {
+
+}
+
+p {
+    margin: .3em 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h4, h5, h6 {
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: normal;
+    color: #f60;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px solid
+}
+
+p, li {
+    color: #666;
+}
+
+@media print{
+    .skills > .wrapper > #skills {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .page2 {
+        page-break-before: always;
+        margin-top: 2em;
+    }
+}

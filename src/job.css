@@ -1,0 +1,33 @@
+.jobs {
+}
+
+.jobs > h2 {
+}
+
+.jobs > ol {
+}
+
+.jobs > ol > li {
+    margin: 0.75em 0;
+}
+
+.jobs header {
+    display: flex;
+    margin-bottom: 0.75em;
+
+}
+
+.jobs header > h3 {
+    font-size: 1.125em;
+    color: #333
+}
+
+.jobs header > h4 {
+    margin-left: 1em;
+    font-size: 1.125em;
+}
+
+.jobs header > span {
+    font-size: 1.125em;
+    margin-left: auto;
+}

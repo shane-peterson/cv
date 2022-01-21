@@ -1,0 +1,23 @@
+.projects {
+
+}
+
+.projects p {
+}
+
+.projects > ol {
+
+}
+
+.projects > ol > li {
+    margin-bottom: 1.5em;
+}
+
+.projects > ol > li > header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects > ol > li h3 {
+
+}
