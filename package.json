@@ -2,12 +2,14 @@
   "name": "cv",
   "version": "1.0.0",
   "scripts": {
-    "build": "rm -rf dist && rm -rf .cache && parcel build src/index.html --no-minify --public-url ./"
+    "build": "rm -rf dist && rm -rf .cache && yarn parcel build src/index.html --public-url ./"
   },
-  "main": "index.js",
   "author": "Shane-Peterson <liuzhelei.hwc@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "echarts": "^5.2.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
   }
 }
